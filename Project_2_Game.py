@@ -4,6 +4,8 @@
 # In[ ]:
 
 
+print ("______________________________WELCOME TO STONE , PAPER , SCISSOR GAME _______________________")
+
 import random
 
 while True :
@@ -20,12 +22,11 @@ while True :
     elif (b=="stone" and user=="scissor") or (b=="paper" and user == "stone") or (b=="scissor" and user=="paper"):
         print ("\nComputer WON the game\nbetter luck next time!\n")
         
-    elif (b=="stone" and user=="stone") or (b=="paper" and user=="paper") or (b=="rock" and user=="rock"):
+    elif (b=="stone" and user=="stone") or (b=="paper" and user=="paper") or (b=="scissor" and user=="scissor"):
         print("It's a tie")
         
     else:
         print("Wrong Entry")
-
 
 # In[ ]:
 
